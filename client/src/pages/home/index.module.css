@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section_1{
+    background-image: url("https://preview.colorlib.com/theme/bizpro/images/home/slide-2.jpg");
+    width: 100%;
+    height: 100vh;
+}
+.section_1_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 30px;
+}
+.section_1_title{
+    color: white;
+    font-size: 48px;
+    line-height: 52.8px;
+    vertical-align: baseline;
+    font-weight: 700;
+}
+.section_1_text{
+    color: white;
+    font-size: 18px;
+    line-height: 19.8px;
+    vertical-align: baseline;
+    font-weight: 500;
+}
+
+.section_1_button{
+    font-size: 14px;
+    line-height: 50px;
+    vertical-align: middle;
+    font-weight:400 ;
+    padding: 0 10px 0 10px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid red;
+}
+    .section_1_button:hover{
+        background-color: red;
+        transition: linear 0.3s;
+        /* transition-timing-function: cubic-bezier(54,1.46,.68,.26); */
+    }
+    .section_2{
+        margin-top: 100px;
+    }
+    .section_2_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .section_2_title{
+        font-size: 36px;
+        line-height: 39.6px;
+        vertical-align: baseline;
+        font-weight: 700;
+
+    }
+    .section_2_line{
+        width: 2%;
+        border-bottom: 4px solid red;
+    }
+    .section_2_text{
+        color: #6F6F6F;
+        width: 50%;
+        text-align: center;
+        font-size: 16px;
+        vertical-align: baseline;
+        line-height: 26px;
+    }
+
+
+/* SECTION 2 */
+.card_title{
+    font-size: 22px;
+    line-height: 24.2px;
+    vertical-align: baseline;
+    margin: 35px 0 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.card_text{
+    color: #6F6F6F;
+    font-size: 14px;
+    line-height: 26px;
+    vertical-align: baseline;
+    font-weight: 400;
+}
+.card_button{
+    font-size: 14px;
+    line-height: 45px;
+    vertical-align: baseline;
+    margin: 22px 0 0;
+    font-weight: 400;
+    background-color: transparent;
+    border: 1px solid red;
+    padding: 0 20px 0 20px;
+}
+.section_2_cards{
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+}
+.section_2_card_icon{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;
+    border: 2px solid red ;
+    border-radius: 50%;
+    width: 50%;
+    height: 15vh;
+
+}
+
+.card_section{
+    margin-top: 100px;
+}
+.section_3{
+    margin-top: 100px;
+}
+.section_3_head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card_about{
+    background-color: #6F6F6F;
+    text-align: center;
+    padding: 10px ;
+
+}
+.section_3_crd h4{
+    font-size: 24px;
+    line-height: 40px;
+    padding: 0px 18px;
+    text-transform: capitalize;
+    /* color: #696F78 */
+
+}
+.section_3_cards{
+border:  1px solid red;
+margin: 0 auto;
+}

@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+.section{
+    background-image: url(https://preview.colorlib.com/theme/bizpro/images/home/slide-1.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+
